@@ -1,0 +1,13 @@
+service:
+  config:
+    p2: value2
+server:
+  context-path: /micro-service-B
+  servlet-path: /
+management:
+  security:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9191/eureka/
