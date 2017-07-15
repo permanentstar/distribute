@@ -1,8 +1,8 @@
 service:
   config:
-    p2: value2
+    p2: value-prod
 server:
-  context-path: /${spring.application.name}
+  context-path: /micro-service-B
   servlet-path: /
 management:
   security:
