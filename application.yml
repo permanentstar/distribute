@@ -1,0 +1,6 @@
+global:
+  config:
+    value: global
+service:
+  config:
+    p2: value-global
