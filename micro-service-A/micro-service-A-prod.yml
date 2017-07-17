@@ -1,0 +1,4 @@
+service:
+  config:
+    p1: value-prod-A
+

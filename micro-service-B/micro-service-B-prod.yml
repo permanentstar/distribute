@@ -1,9 +1,4 @@
 service:
   config:
     p2: value-prod
-server:
-  context-path: /micro-service-B
-  servlet-path: /
-management:
-  security:
-    enabled: false
+

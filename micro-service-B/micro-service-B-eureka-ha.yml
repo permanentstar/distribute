@@ -1,9 +1,0 @@
-service:
-  config:
-    p2: value2
-server:
-  context-path: /${spring.application.name}
-  servlet-path: /
-management:
-  security:
-    enabled: false
