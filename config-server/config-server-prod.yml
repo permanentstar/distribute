@@ -1,7 +1,4 @@
-security:
-  user:
-    name: user
-    password: pass
+
 #spring:
 #  boot:
 #    admin:
