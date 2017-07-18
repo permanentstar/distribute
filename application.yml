@@ -10,12 +10,7 @@ management:
   security:
       enabled: false
   context-path: /manage
-
-security:
-  user:
-    name: user
-    password: pass
-
+  
 eureka:
   instance:
     statusPageUrlPath: ${management.context-path}/info
@@ -23,5 +18,3 @@ eureka:
     metadata-map:
             management:
               context-path: ${management.context-path}
-            user.name: ${security.user.name}
-            user.password: ${security.user.password}
