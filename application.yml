@@ -10,3 +10,11 @@ management:
   security:
       enabled: false
   context-path: /manage
+  
+eureka:
+  instance:
+    statusPageUrlPath: ${management.context-path}/info
+    healthCheckUrlPath: ${management.context-path}/health
+    metadata-map:
+            management:
+              context-path: ${management.context-path}
