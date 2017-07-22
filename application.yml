@@ -7,6 +7,7 @@ service:
 logging:
   file: /app/distribute/logs/${spring.application.name}/${spring.application.name}.log
 management:
+  port: 50049
   security:
       enabled: false
   context-path: /manage
