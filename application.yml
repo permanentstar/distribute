@@ -13,11 +13,11 @@ management:
   
 eureka:
   instance:
-#    statusPageUrlPath: ${management.context-path}/info
-#    healthCheckUrlPath: ${management.context-path}/health
-#    metadata-map:
-#      management:
-#      context-path: ${management.context-path}
+    statusPageUrlPath: ${management.context-path}/info
+    healthCheckUrlPath: ${management.context-path}/health
+    metadata-map:
+            management:
+              context-path: ${management.context-path}
 health:
   config:
     enabled: false
