@@ -7,18 +7,17 @@ service:
 logging:
   file: /app/distribute/logs/${spring.application.name}/${spring.application.name}.log
 management:
-  port: 50049
   security:
       enabled: false
   context-path: /manage
   
 eureka:
   instance:
-    statusPageUrlPath: ${management.context-path}/info
-    healthCheckUrlPath: ${management.context-path}/health
-    metadata-map:
-            management:
-              context-path: ${management.context-path}
+#    statusPageUrlPath: ${management.context-path}/info
+#    healthCheckUrlPath: ${management.context-path}/health
+#    metadata-map:
+#      management:
+#      context-path: ${management.context-path}
 health:
   config:
     enabled: false
