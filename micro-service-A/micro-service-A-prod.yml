@@ -1,4 +1,8 @@
 service:
   config:
     p1: value-prod-A
-
+log:
+  sink:
+    es:
+      host: 10.128.74.82
+      port: 5005

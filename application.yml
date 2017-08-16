@@ -6,6 +6,7 @@ service:
     p2: value-global
 logging:
   file: /app/distribute/logs/${spring.application.name}/${spring.application.name}.log
+
 management:
   security:
       enabled: false
